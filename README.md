@@ -1,4 +1,4 @@
-# Spam_Filter_of_YouTube_Comments
+# Spam Filter of YouTube Comments
 
 Summary:
 
