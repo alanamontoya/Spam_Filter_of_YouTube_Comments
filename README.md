@@ -21,7 +21,7 @@ This project develops a Naive Bayes-based machine learning model to filter spam 
 ### Methodology
 
 - **Data Loading and Preprocessing**: Four datasets corresponding to comments from videos by Psy, Katy Perry, LMFAO, and Eminem are combined into a single training dataset. A separate dataset from a Shakira video serves as the test dataset.
-- **Feature Extraction**: CountVectorizer is utilized to transform the content of comments into a matrix of token counts, effectively creating a bag-of-words model that serves as input for the classifier.
+- **Feature Extraction**: `CountVectorizer` is utilized to transform the content of comments into a matrix of token counts, effectively creating a bag-of-words model that serves as input for the classifier.
 - **Model Training**: The Gaussian Naive Bayes model is trained on the vectorized features, learning to classify comments as spam or not based on the presence and frequency of words.
 - **Evaluation**: The model's performance is assessed through its accuracy on both the training and test datasets, demonstrating its capability to generalize beyond the data it was trained on.
 
